@@ -20,6 +20,10 @@ const defaultImageHostnames = [
   'automate.org',
   'assets.ubuntu.com',
   'freebsd.org',
+  'caksoylar.github.io',
+  'precondition.github.io',
+  'keymapdb.com',
+  '12factor.net',
 ]
 
 /**
