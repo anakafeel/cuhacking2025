@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { FUIFeatureSectionWithCards } from './feature'
 
 const meta: Meta<typeof FUIFeatureSectionWithCards> = {
-  title: '✨ Farm UI/Feature',
+  title: '🚜 Farm UI/Feature',
   parameters: {
     layout: 'centered',
   },
@@ -16,12 +16,4 @@ const meta: Meta<typeof FUIFeatureSectionWithCards> = {
 export default meta
 
 type Story = StoryObj<typeof FUIFeatureSectionWithCards>
-export const UserExperience: Story = {
-  args: {
-  },
-  render: args => (
-    <div>
-      <FUIFeatureSectionWithCards {...args} />
-    </div>
-  ),
-}
+export const Default: Story = {}
