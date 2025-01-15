@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import CUHackingEmail from './CUHackingEmail'
 
 const meta: Meta<typeof CUHackingEmail> = {
-  title: 'cuHacking Design System/CUHackingEmail',
+  title: 'Marketing/CUHackingEmail',
   component: CUHackingEmail,
   tags: ['autodocs'],
   parameters: {
