@@ -8,9 +8,8 @@ import { Button } from '@cuhacking/shared/ui/button'
 import cuHackingLogo from 'libs/shared/features/awesome-feature/assets/cuhacking-logo.svg'
 import bgKeyboard from 'libs/website/assets/ui/introduction/bg-keyboard-1.webp'
 import bgKeyCap from 'libs/website/assets/ui/introduction/bg-keycap-1.webp'
-import React from 'react'
 
-function CUHackingEmail() {
+export default function Email() {
   return (
     <div style={{
       fontFamily: 'monospace',
@@ -270,5 +269,3 @@ function CUHackingEmail() {
     </div>
   )
 }
-
-export default CUHackingEmail

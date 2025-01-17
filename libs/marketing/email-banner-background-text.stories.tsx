@@ -1,16 +1,14 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import CUHackingEmail from './CUHackingEmail'
+import EmailBannerBackgroundText from './email-banner-background-text'
 
-const meta: Meta<typeof CUHackingEmail> = {
-  title: 'Marketing/CUHackingEmail',
-  component: CUHackingEmail,
+const meta: Meta<typeof EmailBannerBackgroundText > = {
+  title: 'Marketing/Email Banner Background Text ',
+  component: EmailBannerBackgroundText,
   tags: ['autodocs'],
   parameters: {
-    layout: 'centered',
     docs: {
       description: {
-        component:
-          'The CUHackingEmail component is a styled email template component designed for cuHacking emails.',
+
       },
     },
   },
