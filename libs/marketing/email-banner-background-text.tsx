@@ -3,69 +3,26 @@ import bgKeyCap from '@website/assets/ui/introduction/bg-keycap-2.webp'
 
 export default function EmailBannerBackgroundText() {
   return (
-    <div
-      style={{
-        fontFamily: 'monospace',
-        lineHeight: 1.5,
-        backgroundColor: '#000',
-        color: '#fff',
-        maxWidth: '600px',
-        margin: '0 auto',
-        position: 'relative',
-        overflow: 'hidden',
-      }}
-    >
+    <div className="font-mono leading-6 bg-black text-white max-w-xl mx-auto relative overflow-hidden">
       {/* Floating Key Caps Background */}
       <img
         src={bgKeyCap.src}
         alt=""
-        style={{
-          width: '100%',
-          marginLeft: '23px',
-          height: '125%',
-          objectFit: 'cover',
-          marginTop: '-36px',
-          zIndex: -1,
-        }}
+        className="w-full ml-[23px] h-[125%] object-cover -mt-9 -z-10"
       />
 
       {/* Main Content */}
-      <div style={{ position: 'relative', zIndex: 1, padding: '20px' }}>
+      <div className="relative z-1 p-5">
         {/* Header */}
-        <div
-          style={{
-            textAlign: 'center',
-            paddingTop: '40px',
-            paddingBottom: '20px',
-            position: 'relative',
-          }}
-        >
-          <h1
-            style={{
-              fontSize: '24px',
-              margin: '20px 0',
-              fontFamily: 'monospace',
-              fontWeight: 'normal',
-              textAlign: 'center',
-            }}
-          >
+        <div className="text-center pt-10 pb-5 relative">
+          <h1 className="text-2xl my-5 font-mono font-normal text-center">
             We hope to
           </h1>
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              padding: '0 20px',
-            }}
-          >
+          <div className="flex justify-center items-center px-5">
             <img
               src={logoIconWordmarkGradientGreen.src}
               alt="cuHacking Logo"
-              style={{
-                maxWidth: '250px',
-                margin: '0 auto',
-              }}
+              className="max-w-[250px] mx-auto"
             />
           </div>
         </div>

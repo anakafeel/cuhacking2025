@@ -2,58 +2,18 @@ import { Button } from '@cuhacking/shared/ui/button'
 
 export default function EmailContent() {
   return (
-    <div style={{
-      fontFamily: 'monospace',
-      lineHeight: 1.5,
-      backgroundColor: '#000',
-      color: '#fff',
-      maxWidth: '600px',
-      margin: '0 auto',
-      position: 'relative',
-      overflow: 'hidden',
-    }}
-    >
-
+    <div className="font-mono leading-6 bg-black text-white max-w-xl mx-auto relative overflow-hidden">
       {/* Congratulations Section */}
-      <div style={{
-        backgroundColor: 'rgba(25, 25, 25, 0.9)',
-        padding: '20px',
-        borderRadius: '8px',
-        marginBottom: '20px',
-        textAlign: 'center',
-        border: '1px solid #333',
-        marginTop: '43px',
-      }}
-      >
-        <h2 style={{
-          color: '#00ff00',
-          fontSize: '20px',
-          margin: '10px 0',
-          fontFamily: 'monospace',
-        }}
-        >
+      <div className="bg-[rgba(25,25,25,0.9)] p-5 rounded-lg mb-5 text-center border border-solid border-[#333] mt-11">
+        <h2 className="text-[#00ff00] text-xl my-2 font-mono">
           Congratulations, Name
         </h2>
-        <p style={{
-          fontSize: '14px',
-          marginBottom: '20px',
-          color: '#e6e6e6',
-          fontFamily: 'monospace',
-        }}
-        >
+        <p className="text-sm mb-5 text-[#e6e6e6] font-mono">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <Button
           variant="secondary"
-          style={{
-            backgroundColor: '#00ff00',
-            color: '#000',
-            border: 'none',
-            padding: '8px 24px',
-            borderRadius: '4px',
-            cursor: 'pointer',
-            fontFamily: 'monospace',
-          }}
+          className="bg-[#00ff00] text-black border-none py-2 px-6 rounded cursor-pointer font-mono"
         >
           RSVP
         </Button>

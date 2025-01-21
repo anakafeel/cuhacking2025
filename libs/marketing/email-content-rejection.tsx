@@ -1,39 +1,19 @@
 export default function EmailContentRejection() {
   return (
-    <div
-      style={{
-        fontFamily: 'monospace',
-        lineHeight: 1.5,
-        backgroundColor: '#000',
-        color: '#fff',
-        maxWidth: '600px',
-        margin: '0 auto',
-        position: 'relative',
-        overflow: 'hidden',
-        padding: '20px',
-      }}
-    >
+    <div className="font-mono leading-6 bg-black text-white max-w-xl mx-auto relative overflow-hidden p-5">
       {/* Rejection Content */}
-      <div
-        style={{
-          backgroundColor: 'rgba(25, 25, 25, 0.9)',
-          padding: '20px',
-          borderRadius: '8px',
-          textAlign: 'left',
-          border: '1px solid #333',
-        }}
-      >
-        <p style={{ marginBottom: '20px' }}>
+      <div className="bg-[rgba(25,25,25,0.9)] p-5 rounded-lg text-left border border-solid border-[#333]">
+        <p className="mb-5">
           Dear
           {' '}
           <strong>John Doe</strong>
           ,
         </p>
-        <p style={{ marginBottom: '20px' }}>
+        <p className="mb-5">
           Thank you so much for applying to cuHacking 6. Unfortunately, with the small amount of
           people we...
         </p>
-        <p style={{ marginBottom: '20px' }}>Signed,</p>
+        <p className="mb-5">Signed,</p>
         <p>
           <strong>First Last</strong>
           <br />
