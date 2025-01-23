@@ -4,8 +4,8 @@ export default function EmailContent() {
   return (
     <div className="font-mono leading-6 bg-black text-white max-w-xl mx-auto relative overflow-hidden">
       {/* Congratulations Section */}
-      <div className="bg-[rgba(25,25,25,0.9)] p-5 rounded-lg mb-5 text-center border border-solid border-[#333] mt-11">
-        <h2 className="text-[#00ff00] text-xl my-2 font-mono">
+      <div className="bg-[rgba(25,25,25,0.9)] p-5 rounded-lg mt-3 ml-3 text-center border border-solid border-[#333] ">
+        <h2 className="text-[#00ff00] text-xl  font-mono">
           Congratulations, Name
         </h2>
         <p className="text-sm mb-5 text-[#e6e6e6] font-mono">
